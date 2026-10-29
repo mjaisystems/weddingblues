@@ -1,0 +1,13 @@
+Hello, this is from *MJ AI Systems*.
+
+Most families and event hosts still share wedding details through messy PDF files, static paper photos, or scattered text messages that get buried on WhatsApp.
+
+Guests constantly message back asking for location links, timing updates, event dress codes, and calendar reminders. Important family details often get lost, and printed invitations lack the interactive warmth that a once-in-a-lifetime celebration deserves.
+
+We have built a dedicated digital wedding invitation experience for *Aman and Priya* that completely transforms how your guests experience your celebration.
+
+With a single link, your guests enjoy an interactive *3D opening palace gate*, gentle background music that plays effortlessly on both iPhone and Android, live *ceremony countdown timers*, direct *Google Maps* directions with zero navigation errors, and one-tap *WhatsApp RSVP* confirmation.
+
+Everything is organized in one refined mobile-first showcase that loads instantly across any phone.
+
+Please take a moment to watch the attached screen recording video showing how the live website opens and functions for your guests.

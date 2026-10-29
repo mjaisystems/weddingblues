@@ -1,0 +1,128 @@
+# ==============================================================================
+# LUXURY WEDDING INVITATION CONFIGURATION
+# 
+# Instructions:
+# 1. Fill in the values below between the brackets or replace the example text.
+# 2. Place your custom files in this project's assets/ folder:
+#      - assets/song.mp3            (Your romantic instrumental background track)
+#      - assets/monogram.png or .svg (Your couple seal or crest)
+#      - assets/photos/             (Add your gallery photos: e.g. photo1.jpg, photo2.jpg...)
+#      - assets/videos/invite.mp4   (Optional video teaser or invitation film)
+# 3. Run: npm run build -- "<folder_name>" to compile your website!
+# ==============================================================================
+
+[PROJECT_SETTINGS]
+# Culture/Tradition: sikh | hindu | muslim | south | christian | destination
+TRADITION = sikh
+
+# Short title shown in browser tab and shares
+COUPLE_TITLE = Aman and Priya
+
+# Primary language and native secondary language
+PRIMARY_LANGUAGE = English
+SECONDARY_LANGUAGE = ਪੰਜਾਬੀ
+
+# Color theme: "default" to use the cultural palette, or provide custom comma-separated hex codes:
+# e.g.: COLOR_PALETTE = #F8F4EB, #DCE5D5, #7D8D72, #C5A46D
+COLOR_PALETTE = default
+
+# GitHub Pages live URL for WhatsApp link preview:
+HOSTED_DOMAIN = https://mjaisystems.github.io/weddingblues
+
+[COUPLE_DETAILS]
+# Groom's Family Details
+GROOM_FIRST_NAME = Amanpreet
+GROOM_LAST_NAME = Singh
+GROOM_FORMAL_TITLE = S. Amanpreet Singh
+GROOM_PARENTS = S. Harinder Singh & Smt. Gurmeet Kaur
+GROOM_GRANDPARENTS = Late S. Daljit Singh & Smt. Surjit Kaur
+GROOM_CITY = Chandigarh
+
+# Bride's Family Details
+BRIDE_FIRST_NAME = Priya
+BRIDE_LAST_NAME = Kaur
+BRIDE_FORMAL_TITLE = Bibi Priya Kaur
+BRIDE_PARENTS = S. Jaswinder Singh & Smt. Rajwant Kaur
+BRIDE_GRANDPARENTS = Late S. Mohinder Singh & Smt. Balwant Kaur
+BRIDE_CITY = Amritsar
+
+[MAIN_CEREMONY_COUNTDOWN]
+# Used for the 4-box live countdown timer
+CEREMONY_NAME = Anand Karaj (Lavan Phere)
+CEREMONY_DATE_DISPLAY = Friday, 20 November 2026
+CEREMONY_TIME_DISPLAY = 10:30 AM IST
+# ISO Date format: YYYY-MM-DDTHH:MM:SS+05:30
+COUNTDOWN_TARGET_ISO = 2026-11-20T10:30:00+05:30
+
+[BLESSINGS_AND_CARDS]
+# Spiritual motif / header line
+SACRED_SYMBOL = ੴ
+BLESSING_HEADING = By the Grace of Waheguru Ji
+BLESSING_QUOTE = "Dhan pir eh na aakhiyan, bahan ikathae hoe. Ek joti doye moorti, dhan pir kahiae soe."
+BLESSING_TRANSLATION = They are not said to be husband and wife who merely sit together. Rather, they alone are called husband and wife who have one soul in two bodies.
+
+# Formal Invitation statement on the stationery card
+INVITATION_STATEMENT = cordially invite you to grace the auspicious wedding ceremony of their beloved children and shower your blessings upon the new couple.
+
+[BILINGUAL_TRANSLATIONS]
+# Translations shown when guests click the language toggle (e.g. ਪੰਜਾਬੀ / हिंदी / اردو / தமிழ்)
+NATIVE_HERO_LINE = ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ
+NATIVE_BLESSING = ਵਾਹਿਗੁਰੂ ਜੀ ਦੀ ਅਪਾਰ ਕਿਰਪਾ ਸਦਕਾ
+NATIVE_INVITATION = ਸਮੂਹ ਪਰਿਵਾਰ ਵੱਲੋਂ ਆਪ ਜੀ ਨੂੰ ਨਿੱਘਾ ਸੱਦਾ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।
+NATIVE_RSVP = ਆਪ ਜੀ ਦੇ ਆਉਣ ਦੀ ਉਡੀਕ ਵਿੱਚ
+
+[FUNCTIONS]
+# Add as many events as needed below. Each event begins with '---'.
+# Map and Calendar buttons are automatically generated.
+---
+EVENT_NAME = Shabad Kirtan & Mehendi
+DATE = Wednesday, 18 November 2026
+TIME = 5:00 PM onwards
+VENUE = The Grand Palace, Ballroom A
+ADDRESS = Sector 35, Chandigarh
+MAP_QUERY = The Grand Palace Sector 35 Chandigarh
+DRESS_CODE = Festive & Vibrant Pastels
+NOTES = Join us for an auspicious evening of divine kirtan, colorful henna and family festivities.
+---
+EVENT_NAME = Sangeet & Jaago Night
+DATE = Thursday, 19 November 2026
+TIME = 7:00 PM onwards
+VENUE = The Heritage Resort
+ADDRESS = National Highway 21, Mohali
+MAP_QUERY = The Heritage Resort Mohali
+DRESS_CODE = Royal Glamour & Traditional Indian
+NOTES = An energetic celebration with bhangra, dhol, dance performances and royal Punjabi dinner.
+---
+EVENT_NAME = Anand Karaj (The Holy Wedding)
+DATE = Friday, 20 November 2026
+TIME = 10:00 AM - 1:00 PM
+VENUE = Gurdwara Sri Guru Tegh Bahadur Sahib
+ADDRESS = Sector 34, Chandigarh
+MAP_QUERY = Gurdwara Sri Guru Tegh Bahadur Sahib Sector 34 Chandigarh
+DRESS_CODE = Elegant Pastel Indian Attire (Head covering is mandatory)
+NOTES = Anand Karaj ceremony solemnized followed by Guru Ka Langar and family blessings.
+---
+EVENT_NAME = Grand Reception
+DATE = Saturday, 21 November 2026
+TIME = 7:30 PM onwards
+VENUE = JW Marriott Hotel
+ADDRESS = Plot 6, Dakshin Marg, Sector 35B, Chandigarh
+MAP_QUERY = JW Marriott Hotel Chandigarh
+DRESS_CODE = Black Tie / Formal Evening Elegance
+NOTES = An unforgettable evening of cocktails, culinary delicacies, toasts and live acoustic music.
+
+[RSVP_AND_CONTACTS]
+PRIMARY_CONTACT_NAME = Harinder Singh (Groom's Father)
+PRIMARY_PHONE = +91 98765 43210
+SECONDARY_CONTACT_NAME = Jaswinder Singh (Bride's Father)
+SECONDARY_PHONE = +91 98123 45678
+WHATSAPP_NUMBER = 919876543210
+WHATSAPP_PREFILLED_MESSAGE = Namaste! We are thrilled to attend Aman & Priya's Wedding celebrations. Guest count attending: 
+EMAIL_CONTACT = celebrations@amanandpriya.com
+
+[MEDIA_ASSETS]
+# Relative paths inside this project folder:
+SONG_FILE = assets/song.mp3
+MONOGRAM_FILE = assets/monogram.svg
+VIDEO_FILE = assets/videos/invite.mp4
+GALLERY_FOLDER = assets/photos
